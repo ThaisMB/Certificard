@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(118, 54, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+#certificard{
+    background-color: rgb(245, 240, 245);
+    max-width: 500px;
+    padding: 10px;
+    border: 1px solid rgb(47, 3, 88);
+    border-radius: 5px;
+    box-shadow: 5px 5px 50px 8px rgba(0,0,0,0.59);
+    font-size: 14px;
+}
+
+.cabecalho{
+    background-image: url("./fundo.jpg");
+    border-radius: 5px;
+    width: 500px;
+    height:80px;
+    display:flex;
+    justify-content: center;
+}
+
+#foto{
+    width:150px;
+    height: 150px;
+    transform: translateY(-50%);
+    border: 6px solid rgb(245, 240, 245);
+    border-radius: 100%;
+}
+
+h1{
+    font-size: 20px;
+    text-align: center;
+}
+
+#insignias{
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(47, 3, 88);
+    background-color: #dacbdf;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    padding: 3px;
+}
